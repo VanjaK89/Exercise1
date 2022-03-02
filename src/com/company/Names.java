@@ -8,7 +8,7 @@ public class Names {
       String name = "Jane";
       String surname = "Doe";
         System.out.println("The full name is " + name + " " + surname + ".");
-        
+
 
 
 
