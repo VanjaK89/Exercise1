@@ -16,7 +16,9 @@ public class Discount {
 
         int nonAlcoholic = 1;
         int alcoholic = 0;
-        System.out.println("In this shop I get non alcoholic drink: " + (nonAlcoholic >= 1 && alcoholic <1) );
+        System.out.println("In this shop I get non alcoholic drink: " + (nonAlcoholic >= 1 && alcoholic ==0) );
+
+
 
 
 
