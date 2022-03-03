@@ -3,6 +3,7 @@ package com.company;
 public class Rectangle {
     public static void main(String[] args) {
         // write your code here
+        //declare variables
         int width = 5;
         int length = 4;
         int circumferenceOfRectangle = 2 * (width) + 2 * (length);
