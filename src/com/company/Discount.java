@@ -19,6 +19,7 @@ public class Discount {
         System.out.println("In this shop I get non alcoholic drink: " + (nonAlcoholic >= 1 && alcoholic ==0) );
         System.out.println(discount(fiction, nonFiction));
         System.out.println(discountBus(seniorCitizen, dog, student));
+        System.out.println(discountAlcohol( nonAlcoholic, alcoholic));
     }
 
     public static boolean discount (int fiction, int nonFiction){
@@ -29,7 +30,9 @@ public class Discount {
     {
         return seniorCitizen || dog || student;
     }
-
+    public static boolean discountAlcohol (int nonAlcoholic, int alcoholic){
+        return nonAlcoholic >= 1 && alcoholic ==0;
+    }
 
 
 }
